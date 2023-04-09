@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/homestyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <span class="logo headerElement">S CLASS S.L</span>
+        
+        <nav class="nav">
+            <button class="navButton home selected" onclick="pressedNav(home)">HOME</button>
+            <button class="navButton cars">CARS</button>
+            <button class="navButton news">NEWS</button>
+        </nav>
+
+        <button class="loginButton headerElement">LOGIN</button>
+    </header>
+
+    <section>
+        <div class="title">
+            <span class="pageTitle">
+                THE FUTURE OF TRANSPORT
+            </span>
+
+            <span class="subTitle">
+                MOTORSPORT INNOVATION
+            </span>
+        </div>
+
+        <div id="content" data-mouse-down-at="0" data-prev-percentage="50">
+            <img class="image" src="../img/leftHome.png" draggable="false">
+            <img class="image" src="../img/mainHome.png" draggable="false">
+            <img class="image" src="../img/rightHome.png" draggable="false">
+        </div>
+    </section>
+        <script src="../js/home.js"></script>
+
+</body>
+</html>

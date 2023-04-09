@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
+
+body {
+    background-color:rgb(250, 237, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.coming-soon {
+    text-align: center;
+    font-size: 15vh;
+    font-family: 'Abril Fatface';
+    background: -webkit-linear-gradient(rgb(173, 139, 115), rgb(206, 171, 147));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.deco {
+    position: absolute;
+    height: 70%;
+    z-index: -1;
+    left: 55%;
+    top: 15%;
+}
+
+.trackdeco {
+    position: absolute;
+    height: 40%;
+    z-index: -2;
+    top: 40%;
+    left: 40%;
+}
+
+.linkStyle {
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Abril Fatface';
+    background: -webkit-linear-gradient(rgb(173, 139, 115), rgb(206, 171, 147));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.linkStyle:hover {
+    font-weight:bold;
+    transition: .15s;
+}
+
+.linkStyle:active {
+    font-size: 4.8vh;
+    transition: .15s;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
